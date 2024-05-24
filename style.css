@@ -1,0 +1,120 @@
+body {
+    direction: rtl;
+    font-family: "Vazirmatn", sans-serif;
+}
+
+#notes {
+    display: inline-flex;
+    width: max-content;
+    margin: 20px;
+    gap: 10px;
+}
+
+#notes > .notebox {
+    width: 100vh;
+}
+
+.table-content > h2 {
+    color: brown;
+    margin-left: 10px;
+
+}
+
+.table-content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    width: 100vh;
+    gap: 10px;
+    margin: 20px;
+}
+
+.card {
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+    aspect-ratio: 1/2;
+    border-radius: 4px;
+    width: 72px;
+    border: 1px solid black;
+}
+
+.icon {
+    fill: #fff;
+    align-self: center;
+    width: 20px;
+    aspect-ratio: 1;
+}
+
+.inverter {
+    filter: invert();
+}
+
+.white {
+    background-color: white;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.green {
+    background-color: darkgreen;
+    color: white;
+}
+
+.gray {
+    background-color: gray;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.removed {
+    opacity: 50%;
+}
+
+.selected {
+    opacity: 1;
+
+}
+
+.selected-badge {
+    display: inline-block;
+    color: green;
+    background-color: white;
+}
+
+.removed-badge {
+    display: inline-block;
+    color: red;
+    background-color: white;
+}
